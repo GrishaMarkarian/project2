@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+</head>
+<body>
+		        <script>
+	    
+        let mas=['img/30.svg','img/31.svg','img/32.svg',];
+        let to = -1;
+        function rigtarrow()
+        {
+            let obj=document.getElementById("img");
+            if (to < mas.length-1) to++
+                else
+                    to=0;
+                    obj.src=mas[to]
+        }
+        function leftarrow()
+        {
+        	let el=document.getElementById('clone').style.display='none';
+            let obj=document.getElementById("img");
+            if (to > 0) to--
+                else
+                    to=mas.length-1;
+                    obj.src=mas[to]
+        }
+
+    </script>
+</head>
+<body>
+
+    <div id="gallery_box">
+        <i class="fa fa-long-arrow-right" aria-hidden="true" onclick="javascript:leftarrow()"></i><img src="img/30.svg" alt="" id="clone">
+        <img src="img/6.jpg" alt="" id="img">
+    </div>
+<nav class="nav">
+  <input class="nav__check" type="checkbox" id="showmenu"/>
+  <label class="nav__showmenu" for="showmenu">&#9776;</label>
+  <label class="nav__back" for="showmenu"></label>
+  <ul class="menu">
+    <li><a class="menu__item" href="#">Home</a></li>
+      <li><a class="menu__item" href="#">About us</a></li>
+        <li><a class="menu__item" href="#">Shop</a></li>
+          <li><a class="menu__item" href="#">Contacts</a></li> 
+    <li><a class="menu__item" href="#">Contacts us</a></li>
+    
+  </ul>
+</nav>
+
+		</div>
+	<header>
+		<img src="img/Fill 9.png" alt="">
+		<p>Samwayle</p>
+		<li>
+			<a href=>About us</a>
+			<a href=>Promotion</a>
+			<a href=>Shop</a>
+			<a href=>Contacts</a>
+			<a href=>Contact Us</a>	
+		</li>
+	</header>
+	
+	<div class="box">
+		<h1>Drink coffee, enjoy with Samwyle</h1>
+		<b><h2>Coffe Shop</h2></b>
+		<button>Order Here</button>
+		<div class="box1"></div>
+		<p>Follow us</p>
+		<div class="box3"><img src="img/13.png" alt=""></div>
+		<div class="box4"><img src="img/11.png" alt=""></div>
+		<div class="box5"><img src="img/10.png" alt=""></div>
+		
+	</div>
+	<aside>
+		<div class="box7"></div>
+		<h1>Coffee Shop Samwayle</h1>
+		<div class="box32"><p>About us</p></div>
+		<div class="box8"><p>Only one moment - when the barista reaches out over the bar to transfer the cup to the outstretched hand of the buyer. But this is exactly the moment when a connection arises between us and our guests.</p></div>
+		<div class="box9"><p>And we strive to do our best to maintain this connection - starting with our commitment to selecting the highest quality coffee in the world and ending with how we interact with guests and organizations to fulfill our obligations.</p></div>
+		<img src="img/Vector 23.svg" alt="">
+	</aside>
+	<div class="box10">
+		<h1>Сoffee of the day</h1>
+		<div class="box11"><p>Americano coffee (Italian: Caffè Americano) is an espresso diluted with hot water. The presence of foam (cream) depends on how coffee and water are mixed. Attention! The concepts of “American” and “American coffee” should not be confused. n the second case, this refers not to diluted espresso, but to a drink prepared through a filter system.</p></div>
+		<img src="img/Vector 24.svg" alt="">
+		<div class="box22"></div>
+		<div class="box12"><p>Promotion</p></div>
+		<button>Add to card</button>
+	</div>
+	<div class="box13">
+		<div class="box14"><h1>Americano</h1><p>The name Latte (from Italian “milk”) speaks about the main ingredient of the drink. It is recommended to take fat milk - at least 3.2%. In addition to it, milk foam.</p><button>Add to cart</button></div>
+		<div class="box15"><h1>Latte</h1><p>The name Latte (from Italian “milk”) speaks about the main ingredient of the drink. It is recommended to take fat milk - at least 3.2%. In addition to it, milk foam.</p><button>Add to cart</button></div>
+		<div class="box16"><h1>Espresso</h1><p>Espresso - black coffee made in a coffee machine or a special coffee machine, where hot water is passed through pressed ground beans at a  atspecial coffee  pressure.</p><button>Add to cart</button></div>
+		<div class="box34"><i class="fa fa-chevron-left" aria-hidden="true"></i></div>
+		<div class="box35"><i class="fa fa-chevron-right" aria-hidden="true"></i></div>
+	</div>
+<div class="box17">
+	<p>Contacts</p>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48209.06260727137!2d-73.84234187674747!3d40.95812392140634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c292e548a883d5%3A0x3cdef624548bbf40!2z0JjRgdGC0YfQtdGB0YLQtdGALCDQndGM0Y4t0JnQvtGA0LosINCh0KjQkA!5e0!3m2!1sru!2sua!4v1591974481475!5m2!1sru!2sua"  width="643" height="351" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+	<h1>Our address</h1>
+	<div class="box18">
+	<h2>110 St-Cathedral Pkwy Station</h2>
+		<h2>310 94th St, Flushing</h2>
+			<h2>94-54 Corona Ave., Elmhurst</h2>
+				<h2>5627 Van Doren St, Queens</h2>
+				</div>
+</div>
+<div class="box39">
+</div>
+<div class="box40">
+	<button>See more address<img src="img/Vector 123.png" alt=""></button>
+</div>
+</body>
+</html>
